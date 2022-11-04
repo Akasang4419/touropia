@@ -24,6 +24,13 @@ searchBtn.addEventListener('click', () =>{
     searchBtn.classList.toggle('fa-times');
     searchBar.classList.toggle('active');
 });
+clockBtn.addEventListener('click', () => {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+  menu.classList.toggle('fa-moon-over-sun');
+
+});
+
 
 formBtn.addEventListener('click', () =>{
     loginForm.classList.add('active');
